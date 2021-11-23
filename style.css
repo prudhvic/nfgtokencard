@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+}
+body {
+  height: 100vh;
+  background-color: #0d192b;
+  display: grid;
+  place-items: center;
+}
+img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+main {
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  gap: 0.5rem;
+  place-items: center;
+  place-content: center;
+}
+section {
+  max-width: 370px;
+  padding: 1.5em;
+  background-color: #14253d;
+  display: grid;
+  color: white;
+  box-shadow: 0 0 10px black;
+  gap: 0.5rem;
+}
+.img {
+  text-align: center;
+  border-radius: 5px;
+}
+.title {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+p {
+  font-size: 1.1rem;
+  color: #8bacda;
+  margin-bottom: 0.5rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.no-gap {
+  justify-content: flex-start;
+  gap: 0.4rem;
+}
+.no-gap img {
+  max-width: 5rem;
+}
+h3 {
+  color: #00fff7;
+}
+h4 {
+  color: #8bacda;
+}
+h3,
+h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
