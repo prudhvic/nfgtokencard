@@ -24,6 +24,7 @@ main {
   gap: 0.5rem;
   place-items: center;
   place-content: center;
+  overflow: hidden;
 }
 section {
   max-width: 370px;
